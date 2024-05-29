@@ -36,7 +36,7 @@ public class Menu {
 
     private void salir() {
         limpiarPantalla();
-        System.out.println("Adios");
+        System.out.println("Fin Del Juego");
     }
 
     private void limpiarPantalla() {
@@ -48,9 +48,9 @@ public class Menu {
         juego.lanzarDados();
         juego.mostrarResultado();
         if (juego.esVictoria()) {
-            System.out.println("Usted a GANDADO!!!!");
+            System.out.println("Usted a GANADADO!!");
         } else {
-            System.out.println("Usted PERDIO :C");
+            System.out.println("Usted PERDIO!!!!!");
         }
     }
 
