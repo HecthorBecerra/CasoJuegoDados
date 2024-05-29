@@ -1,7 +1,7 @@
 public class EjemploJuegoDados {
 
-    private Dado dado1;
-    private Dado dado2;
+    private final Dado dado1;
+    private final Dado dado2;
     private short resultado;
 
     public EjemploJuegoDados() {

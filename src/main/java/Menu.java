@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Menu {
 
-    private EjemploJuegoDados juego;
-    private Scanner scanner;
+    private final EjemploJuegoDados juego;
+    private final Scanner scanner;
     private int opcion;
 
     public Menu() {
